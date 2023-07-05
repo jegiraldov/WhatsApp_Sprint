@@ -1,0 +1,150 @@
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss ***!
+  \********************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (1) ***!
+  \************************************************************************************************************************/
+@import url(https://fonts.googleapis.com);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (2) ***!
+  \************************************************************************************************************************/
+@import url(https://fonts.gstatic.com);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (3) ***!
+  \************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (4) ***!
+  \************************************************************************************************************************/
+@import url(https://fonts.googleapis.com);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (5) ***!
+  \************************************************************************************************************************/
+@import url(https://fonts.gstatic.com);
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/app/styles/style.scss (6) ***!
+  \************************************************************************************************************************/
+@charset "UTF-8";
+/*------------MAIN------------*/
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hammersmith One", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: #f7f8fa;
+}
+
+.logo-chats {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  align-items: center;
+  gap: 30px;
+}
+.logo-chats img {
+  height: 200px;
+  width: 400px;
+}
+.logo-chats p {
+  font-size: 20px;
+}
+
+.formulario-conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  align-items: center;
+  background-color: #f7f8fa;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(0, 0, 0, 0.466);
+  width: 400px;
+  height: 500px;
+}
+.formulario-conteiner input {
+  width: 80%;
+  height: 50px;
+  border-color: rgba(0, 0, 0, 0.1843137255);
+  font-size: 15px;
+  padding-left: 15px;
+}
+.formulario-conteiner--input-login button {
+  background-color: #9bd3ae;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+.formulario-conteiner--input-login button :hover {
+  background-color: rgba(196, 236, 209, 0.9450980392);
+}
+.formulario-conteiner--recordar-contraseña {
+  padding-top: 30px;
+}
+.formulario-conteiner--recordar-contraseña a {
+  text-decoration: none;
+}
+.formulario-conteiner--nueva-cuenta-conteiners {
+  display: flex;
+  padding-top: 50px;
+  width: 80%;
+  border-top: 1px solid rgba(141, 136, 136, 0.8235294118);
+  justify-content: center;
+}
+.formulario-conteiner--nueva-cuenta-conteiners a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #caeed6;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+.formulario-conteiner--nueva-cuenta-conteiners a :hover {
+  background-color: rgba(202, 238, 214, 0.662745098);
+}
+
+/*------FOOTER--------*/
+.conteiner--footer-row {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 50PX;
+  justify-content: center;
+  background: rgba(136, 235, 114, 0.17);
+  height: 125px;
+}
+.conteiner--footer-row li {
+  list-style: none;
+  padding: 2px;
+  position: relative;
+  right: 20%;
+}
+.conteiner--footer-row a {
+  text-decoration: none;
+  color: #000000;
+}
+.conteiner--footer-links {
+  width: 25%;
+  padding: 0 5px;
+  margin-left: 50px;
+}

@@ -1,0 +1,137 @@
+/*------------MAIN------------*/
+@import 'variables';
+@import 'universals';
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: $color-primary;
+}
+
+.logo-chats{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    gap: 30px;
+
+    & img{
+        height: 200px;
+        width: 400px;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+}
+
+.formulario-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    align-items: center;
+    background-color: $color-primary;
+    border-radius: 10px;
+    box-shadow: 8px 14px 38px rgba(0, 0, 0, 0.466);
+    width: 400px;
+    height: 500px;
+
+    & input{
+        width: 80%;
+        height: 50px;
+        border-color: #0000002f;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    &--input-login button{
+        background-color: #9bd3ae;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        width: 300px;
+        font-size: 20px;
+        text-decoration: none;
+        color: $color-secondary;
+
+        & :hover{
+            background-color: #c4ecd1f1;
+        }
+    }
+
+    &--recordar-contraseña{
+        padding-top: 30px;
+
+        & a{
+            text-decoration: none;
+        }
+    }
+
+    &--nueva-cuenta-conteiners{
+        display: flex;
+        padding-top: 50px;
+        width: 80%;
+        border-top: 1px solid #8d8888d2;
+        justify-content: center;
+
+        & a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #caeed6;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            width: 260px;
+            font-size: 15px;
+            text-decoration: none;
+            color: $color-secondary;
+
+            & :hover{
+                background-color: #caeed6a9;
+            }
+        }
+    }
+}
+
+/*------FOOTER--------*/
+
+
+.conteiner{
+
+    &--footer-row{
+        display: flex;
+        padding-top: 10px;
+        padding-left: 50PX;
+        justify-content: center;
+        background: rgba(136, 235, 114, 0.17);
+        height: 125px;
+
+        & li{
+            list-style: none;
+            padding: 2px ;
+            position: relative;
+            right: 20%; 
+        }
+
+        & a{
+            text-decoration: none;
+            color: $color-secondary;
+        }
+    }
+
+    &--footer-links{
+        width: 25%;
+        padding: 0 5px;
+        margin-left: 50px;
+    }
+
+
+}
+
+
